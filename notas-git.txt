@@ -1,0 +1,20 @@
+git config --global user.name
+git config --global user.email
+Git status
+
+git checkout "nombre-archivo" -> recupera archivo modificado o borrado
+
+git rm "nombre-archivo" -> borra archivo del repositorio
+
+git log -> muestra el log de todos los commit
+
+git checkout <primeras letras del commit id> -> vuelve al commit seleccionado
+
+git checkout -b <nombre de rama> -> crea una rama nueva
+
+git branch -> muestra las ramas que tenemos
+
+git checkout <nombre-rama> -> cambia de una rama a otra
+
+git branch -d <nombre-rama> -> borra la rama ( con la D mayuscula fuerza a borrar aunque haya errores)
+
